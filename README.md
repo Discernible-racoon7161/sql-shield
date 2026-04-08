@@ -34,7 +34,7 @@ User ──► │ Your LLM  │ ──► │ sql-shield │ ──► │ Data
 ## Install
 
 ```bash
-npm install sql-shield
+npm install davoroh/sql-shield
 ```
 
 ## Works with any LLM tool
