@@ -1,0 +1,55 @@
+{
+  "name": "sql-shield",
+  "version": "1.0.0",
+  "description": "SQL security middleware for LLM-generated queries",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js",
+    "./catalog": "./src/catalog.js"
+  },
+  "scripts": {
+    "test": "node --test test/validate.test.js test/fixup.test.js test/bind.test.js",
+    "test:integration": "node --test test/integration.test.js",
+    "test:all": "node --test test/",
+    "lint": "eslint src/ test/",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "keywords": [
+    "sql",
+    "security",
+    "llm",
+    "validation",
+    "whitelist",
+    "injection",
+    "text-to-sql",
+    "ai",
+    "middleware"
+  ],
+  "author": "Davor Hranuelli",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/davoroh/sql-shield.git"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "src/",
+    "LICENSE",
+    "README.md"
+  ],
+  "peerDependencies": {
+    "pg": ">=8.0.0"
+  },
+  "peerDependenciesMeta": {
+    "pg": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "pg": "^8.20.0"
+  }
+}
